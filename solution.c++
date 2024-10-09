@@ -7,10 +7,8 @@ float moyenne(vector<int>&t){
 int sum = 0;
 for(int i=0 ; i<t.size() ; i++){
     sum += t[i];
-    cout<<"sum="<<sum<<endl;
+   
 }
-    cout<<"Size="<<t.size()<<endl;
-
 return float(sum)/t.size();
 }
 
